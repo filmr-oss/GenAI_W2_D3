@@ -2,28 +2,22 @@
 
 ## Overview
 
-A simple LangChain application that sends multiple prompts to OpenAI
-and uses LangSmith to trace and monitor the runs.
+This project demonstrates a simple LangChain application that sends multiple prompts to an OpenAI model and traces the runs using LangSmith.
 
-## Technologies
+The application sends three different prompts and prints the AI responses in the terminal.
+
+## Technologies Used
 
 - Python
 - LangChain
 - OpenAI
 - LangSmith
+- python-dotenv
 
-## What This Project Demonstrates
+## Project Structure
 
-- Using `ChatOpenAI`
-- Sending multiple prompts
-- LangSmith tracing
-- Viewing latency and token usage
-- Environment-based configuration
-
-## How to Run
-
-### 1. Create virtual environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
+```text
+GenAI_W2_D3/
+├── traced_app.py
+├── .gitignore
+└── README.md
